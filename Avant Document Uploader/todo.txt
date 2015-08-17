@@ -1,0 +1,19 @@
+To do:
+
+To done:
+-Login/Signup
+-manually do constraints to set up for all screen sizes
+-set Document ACL to current user as well as public read access (once Login is setup)
+-save photo before saving the rest of the object to save some time
+-App Icon
+-make ScrollView autosize to fill bottom of screen
+-figure out when to reload images (don't reload ones we already have)
+-Make single photo viewer
+
+Future work:
+-more robust network connection handling
+
+
+Notable features:
+-Resizes thumbnails depending on device. Very usefully big on iPad.
+-Saves images as soon as their taken and later links them to Document objects. This saves a lot of time in saving a Document. It's deceptively quick. The tradeoff is more network traffic.
